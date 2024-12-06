@@ -1,0 +1,96 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PersonIntent",
+          "samples": [
+            "I want to learn the ethics of persons ",
+            "the ethics of persons",
+            "person"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HappinessIntent",
+          "samples": [
+            "I want to learn about the ethics of happiness",
+            "the ethics of happiness",
+            "happiness"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "RelationshipIntent",
+          "samples": [
+            "I want to learn about the ethics of relationship",
+            "ethics of relationship",
+            "relationship"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "virtue",
+              "type": "VirtueType"
+            }
+          ],
+          "name": "VirtueIntent",
+          "samples": [
+            "let\u0027s learn {virtue} virtues",
+            "{virtue}",
+            "I want to learn the ethics of virtue",
+            "ethics of virtue",
+            "ethics of virtues",
+            "virtue",
+            "virtues"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "eastern"
+              }
+            },
+            {
+              "name": {
+                "value": "theological"
+              }
+            },
+            {
+              "name": {
+                "value": "western"
+              }
+            }
+          ],
+          "name": "VirtueType"
+        }
+      ],
+      "invocationName": "ethical stuff"
+    }
+  }
+}
